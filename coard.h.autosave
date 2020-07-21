@@ -1,0 +1,14 @@
+#ifndef COARD_H
+#define COARD_H
+#include <vector>
+
+class Coard
+{
+public:
+    Coard();
+private:
+    const int BLOCK_SIZE=40;
+    std::vector<int> board;
+};
+
+#endif // COARD_H
